@@ -1,0 +1,21 @@
+{
+  "name": "ui5con17-custom-theme",
+  "version": "0.0.0",
+  "private": true,
+  "description": "OpenUI5 custom theme example for UI5con 2017 built using Grunt & Bower",
+  "scripts": {
+    "start": "grunt serve",
+    "build": "grunt build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install"
+  },
+  "keywords": [],
+  "author": "Matthias Oßwald <m@tthiasosswald.com> (http://matthiasosswald.com)",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "bower": "^1.8.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-openui5": "^0.12.0"
+  }
+}
