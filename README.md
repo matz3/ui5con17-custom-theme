@@ -3,6 +3,8 @@
 
 Please note that this is just a very basic example project to show how custom themes can be created and built. The theme is not intended to be used with real applications and does not cover all parameters, controls and libraries.
 
+![](screenshot.png)
+
 ## Getting started
 * Install Node.js (from [nodejs.org](http://nodejs.org/)).
 * Install the Grunt CLI
