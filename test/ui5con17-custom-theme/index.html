@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta charset="utf-8">
+
+		<title>ui5con17-custom-theme</title>
+
+		<script src="../../resources/sap-ui-core.js"
+			id="sap-ui-bootstrap"
+			data-sap-ui-libs="sap.m"
+			data-sap-ui-theme="ui5con17"
+            data-sap-ui-compatVersion="edge">
+        </script>
+
+		<script>
+            sap.ui.getCore().attachInit(function() {
+                sap.ui.require(["sap/m/Button"], function(Button) {
+                    var oButton = new Button({
+                        text:'Hello World'
+                    });
+                    oButton.placeAt('content');
+                });
+            });
+			
+		</script>
+
+	</head>
+	<body id="content" class="sapUiBody">
+	</body>
+</html>
