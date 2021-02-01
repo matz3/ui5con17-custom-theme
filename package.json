@@ -12,12 +12,12 @@
   "author": "Matthias Oßwald <m@tthiasosswald.com> (http://matthiasosswald.com)",
   "license": "Apache-2.0",
   "devDependencies": {
-    "@ui5/cli": "^1.10.0"
+    "@ui5/cli": "^2.9.3"
   },
   "dependencies": {
-    "@openui5/sap.m": "^1.71.1",
-    "@openui5/sap.ui.core": "^1.71.1",
-    "@openui5/sap.ui.layout": "^1.71.1",
-    "@openui5/themelib_sap_belize": "^1.71.1"
+    "@openui5/sap.m": "^1.85.2",
+    "@openui5/sap.ui.core": "^1.85.2",
+    "@openui5/sap.ui.layout": "^1.85.2",
+    "@openui5/themelib_sap_belize": "^1.85.2"
   }
 }
